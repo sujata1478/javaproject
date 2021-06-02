@@ -4,12 +4,7 @@
     <settings>
      <servers>
 <server>
-  <id>YourRepo</id>
-  <username>admin</username>
-  <password>admin123</password>
-</server>
-<server>
-  <id>releases</id>
+  <id>Test_snapshot</id>
   <username>admin</username>
   <password>admin123</password>
 </server>
@@ -38,16 +33,11 @@
        </dependencies>
     <distributionManagement>
 
-    <repository>
-        <id>releases</id>
-        <name>Releases</name>
-        <url>http://localHost:8081/repository/Test_snapshot/</url>
-    </repository>
 
     <snapshotRepository>
-        <id>snapshots</id>
+        <id>Test_snapshot</id>
         <name>Snapshots</name>
-        <url>http://localHost:8081/repository/Test_snapshot/</url>
+        <urlhttp://ec2-100-25-163-152.compute-1.amazonaws.com:8081/repository/Test_snapshot/</url>
     </snapshotRepository>
 </distributionManagement>
     
