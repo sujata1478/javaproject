@@ -29,7 +29,7 @@
     <snapshotRepository>
         <id>Test_snapshot</id>
         <name>Snapshots</name>
-        <urlhttp://ec2-100-25-163-152.compute-1.amazonaws.com:8081/repository/Test_snapshot/</url>
+        <url>http://ec2-100-25-163-152.compute-1.amazonaws.com:8081/repository/Test_snapshot/</url>
     </snapshotRepository>
 </distributionManagement>
     
